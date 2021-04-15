@@ -28,3 +28,25 @@ Rosalind Franklin fue una química y cristalógrafa británica quien fue impresc
 >     estructura += aminoacido.clasificacion
 >  
 >   return estructura
+>   
+
+Cada aminoacido sabe su clasificacion, por lo que la estructura podria retornar una cadena "HHBHL" por ejemplo.
+
+**RETO VI: ¿Qué hace distintos a dos individuos de una especie? Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin**
+
+Lo que hace distintos a dos individuos de una especie es el ADN. Podriamos comparar las cadenas de nucleotidos de cada individuo mediante un programa:
+
+>  adn1 = [CG,AT,CG,CG,CG,AT...]
+>  
+>  adn2 = [CG,AT,CG,CG,CG,AT...]
+>  
+> ADNsIguales(adn1, adn2)
+>  
+>  for (i= 0; i < adn1.size; i++)
+>   
+>     if !(adn1[i].equals(adn2[i]))
+>     
+>       return false
+>  
+>   return true
+
