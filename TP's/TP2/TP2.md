@@ -29,17 +29,19 @@ Como invariante la cadena debe contener una región promotora
 
 Reglas del juego:
 
-1) Ambos jugadores roban una carta de proteina, esta les indicará que proteina deben formar
+- El juego cuenta con un tablero, 80 cartas de bases nitrogenadas (20 de cada una), 10 proteinas, 126 aminoacidos (6 aminoacidos de cada uno) y  20 agentes desnaturalizantes (4 de cada uno)
 
-2) Ambos jugadores roban 9 cartas de Bases nitrogenadas
+1) Ambos jugadores roban una carta de proteina, esta les indicará que proteina deben formar.
 
-3) Cuando armen con tres bases nitrogenadas un codón podran intercambiarlas por un aminoácido. Las bases van al mazo de reutilizacion.
+2) Ambos jugadores roban 9 cartas de Bases nitrogenadas y 3 cartas del mazo de aminoacidos y desnaturalizantes.
 
-4) Los jugadores deberan armar con los aminoacidos la proteina que les tocó
+3) Podran ir armando su proteinas bajando los aminoacidos correspondientes, para bajar un aminoacido, deben descartar las bases nitrogenadas (van al fondo del mazo de bases nitrogenadas) que conformen un aminoacido que tengan en la mano. Si no me sirve el aminoacido que tengo en la mano puedo descartarlo y robar 1 carta del mazo de aminoacidos y desnaturalizantes.
 
-5) Una vez por turno robaran una carta del mazo.
+4) Si descarto un aminoacido y a mi oponente le sirve puede intercambiarlo por otro aminoacido que posea.
 
-6) En el mazo pueden haber bases nitrogenadas o agentes de desnaturalización, para poder retrasar el trabajo del oponente al crear una proteina
+5) Una vez por turno deberan robar 1 carta de base nitrogenada y al siguiente turno 1 carta de aminoacidos o desnaturalizante.
+
+6) Si tengo un agente de desnaturalización, puedo retrasar el trabajo del oponente al crear una proteina eliminando la cantidad de aminoacidos que digan en la descripción de la carta.
 
 7) Cuando terminen de generar la proteina deberan finalizar el juego utilizando las bases nitrogenadas para generar el codon de STOP
 
