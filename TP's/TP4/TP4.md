@@ -65,7 +65,7 @@ En este caso si aumentamos la penalidad n veces se obtiene una identidad menor d
 
 Otra cosa que note es que cuando se comparan las traducciones dada por los codones la comparativa entre un gap y un aminoácido cualquiera es mejor que dos aminoácidos que son distintos.
 
-**RETO VI: Utilizando la herramienta interactiva desarrollada por el Grupo de Bioinformática de Freiburg probá distintos ​Gap penalties para el ejemplo propuesto y observá lo que ocurre. Interpretando la recursión, explicá con tus palabras de dónde salen los valores de la matriz  que se construye. ¡Esquematiza tus conclusiones!**
+**RETO VI: Utilizando la herramienta interactiva desarrollada por el Grupo de Bioinformática de Freiburg probá distintos ​Gap penalties para el ejemplo propuesto y observá lo que ocurre. Interpretando la recursión, explicá con tus palabras de dónde salen los valores de la matriz  que se construye. ¡Esquematiza tus conclusiones!
 
 - Primero defino cuanto quiero que valga el match, dismatch y el gap. 
 - Luego pongo una cadena en el eje x y otra en el eje y quedando de la siguiente manera
